@@ -5,4 +5,14 @@
         flex-direction: column;
         gap: 10px;
     }
+    .banner{
+        flex-direction: column-reverse;
+        gap: 20px;
+    }
+    .banner-img,
+    .banner-content{
+        width: 70%;
+        margin: 0 auto;
+        padding: 0px;
+    }
 }

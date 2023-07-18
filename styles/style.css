@@ -16,6 +16,22 @@ body {
     align-items: center;
 }
 
+.list-none {
+    list-style: none;
+}
+
+.primary-btn {
+    background-color: #FF42A5;
+    color: white;
+    font-size: 0.8rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    padding: 15px 25px;
+    border: none;
+    border-radius: 25px;
+    margin-top: 20px;
+}
+
 /* nav styles here  */
 .nav-container {
     display: flex;
@@ -71,4 +87,55 @@ body {
 .fa-tiktok {
     color: #000000;
     font-size: 1.5rem;
+}
+
+/* banner styles here  */
+.banner {
+    margin: 0px auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-image: url("../assets/images/Group\ 14.png");
+    background-repeat: no-repeat;
+    background-size: 50% 100%;
+    background-position: left;
+}
+
+.banner-content {
+    width: 50%;
+    padding-left: 10%;
+}
+
+.banner-content h2 {
+    font-size: 2.5rem;
+    font-weight: 600;
+}
+
+.banner-content h1 {
+    font-size: 5rem;
+    font-weight: 800;
+    background-image: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    color: transparent;
+    -webkit-background-clip: text;
+}
+
+.banner-img {
+    width: 50%;
+    text-align: right;
+    padding-right: 10%;
+}
+
+.banner-img img {
+    width: 100%;
+}
+
+.banner-content li {
+    font-size: 1rem;
+    font-weight: 500;
+    color: #534C64;
+    padding: 5px 0px;
+}
+
+.banner-btn {
+    background-color: #4EC5F7;
 }
