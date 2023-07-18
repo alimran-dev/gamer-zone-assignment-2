@@ -1,18 +1,26 @@
 @media screen and (max-width:576px) {
+
+    .videos-card-container,
     .menu-container ul,
     .menu-container,
-    .nav-container{
+    .nav-container {
         flex-direction: column;
         gap: 10px;
     }
-    .banner{
+
+    .banner {
         flex-direction: column-reverse;
         gap: 20px;
     }
+
     .banner-img,
-    .banner-content{
+    .banner-content {
         width: 70%;
         margin: 0 auto;
         padding: 0px;
+    }
+    .videos-card{
+        width: 100%;
+        text-align: center;
     }
 }

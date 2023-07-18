@@ -32,6 +32,15 @@ body {
     margin-top: 20px;
 }
 
+.section-title{
+    font-size: 2.5rem;
+    font-weight: 700;
+}
+.section-highlight{
+    background-image: linear-gradient(180deg,#F948B2 0%, #8758F1 100%);
+    color: transparent;
+    -webkit-background-clip: text;
+}
 /* nav styles here  */
 .nav-container {
     display: flex;
@@ -138,4 +147,31 @@ body {
 
 .banner-btn {
     background-color: #4EC5F7;
+}
+/* online games section styles here  */
+.online-games{
+    width: 80%;
+    margin: 50px auto;
+}
+.online-games-content{
+    text-align: center;
+}
+.online-games-content p{
+    padding: 10px 0px;
+}
+.videos-card-container{
+    justify-content: space-between;
+    margin: 30px auto;
+}
+.videos-card{
+    width: 23%;
+}
+.videos-card img{
+    width: 100%;
+}
+.videos-card p{
+    color: #534C64;
+    font-size: 0.8rem;
+    font-weight: 500;
+    padding: 10px 0px;
 }
