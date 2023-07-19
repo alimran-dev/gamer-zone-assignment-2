@@ -175,3 +175,35 @@ body {
     font-weight: 500;
     padding: 10px 0px;
 }
+/* play games styles here  */
+.play-games{
+    width: 80%;
+    margin: 30px auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 150px;
+}
+.play-img-container{
+    width: 60%;
+    position: relative;
+}
+.secondary-img{
+    position: absolute;
+    bottom: -100px;
+    right: -180px;
+}
+.play-img-container>img{
+    width: 100%;
+}
+.secondary-img img{
+    width: 70%;
+}
+.play-games-content{
+    width: 40%;
+}
+.play-games-content p{
+    font-size: 0.8rem;
+    color: #534C64;
+    padding: 10px 0px;
+}
