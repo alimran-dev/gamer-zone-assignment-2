@@ -1,5 +1,4 @@
 @media screen and (max-width:576px) {
-
     .videos-card-container,
     .menu-container ul,
     .menu-container,
@@ -26,10 +25,33 @@
         margin: 0 auto;
         padding: 0px;
     }
+    .play-games{
+        flex-direction: column-reverse;
+        gap: 20px;
+    }
+    .play-games-content{
+        width: 100%;
+        text-align: center;
+    }
+    .play-img-container{
+        width: 100%;
+    }
+    .play-img-container>img{
+        width: 70%;
+    }
+    .secondary-img{
+        position: absolute;
+        bottom: -15%;
+        right: -50%;
+    }
+    .secondary-img img{
+        width: 40%;
+    }
     .videos-card {
         width: 100%;
         text-align: center;
     }
+
     .category-container{
         flex-basis: 30%;
     }
