@@ -209,17 +209,20 @@ body {
 }
 /* games category styles here  */
 .games-category{
-    width: 80%;
-    margin: 150px auto 100px;
+    margin: 100px auto 0px;
+    padding: 80px 10%;
     display: flex;
     justify-content: space-around;
     align-items: center;
     gap: 10px;
     flex-wrap: wrap;
+    background: linear-gradient(90deg, rgba(255, 66, 165, 0.03) 0%, rgba(255, 66, 165, 0.03) 100%);
 }
 .category-container{
     gap: 10px;
     padding: 5px;
+    border-radius: 30px;
+    background-color: white;
 }
 .category-container:hover {
     border: 1px solid #FF42A5;
