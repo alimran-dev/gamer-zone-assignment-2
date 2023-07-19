@@ -32,15 +32,17 @@ body {
     margin-top: 20px;
 }
 
-.section-title{
+.section-title {
     font-size: 2.5rem;
     font-weight: 700;
 }
-.section-highlight{
-    background-image: linear-gradient(180deg,#F948B2 0%, #8758F1 100%);
+
+.section-highlight {
+    background-image: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
     color: transparent;
     -webkit-background-clip: text;
 }
+
 /* nav styles here  */
 .nav-container {
     display: flex;
@@ -148,35 +150,79 @@ body {
 .banner-btn {
     background-color: #4EC5F7;
 }
+
 /* online games section styles here  */
-.online-games{
+.online-games {
     width: 80%;
     margin: 50px auto;
 }
-.online-games-content{
+
+.online-games-content {
     text-align: center;
 }
-.online-games-content p{
+
+.online-games-content p {
     padding: 10px 0px;
 }
-.videos-card-container{
+
+.videos-card-container {
     justify-content: space-between;
     margin: 30px auto;
 }
-.videos-card{
+
+.videos-card {
     width: 23%;
 }
-.videos-card img{
+
+.videos-card img {
     width: 100%;
 }
-.videos-card p{
+
+.videos-card p {
     color: #534C64;
     font-size: 0.8rem;
     font-weight: 500;
     padding: 10px 0px;
 }
+
+.card-img-container {
+    position: relative;
+}
+
+.overlay {
+    background-color: rgba(0, 0, 0, 0.6);
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    width: 100%;
+    height: 100%;
+    border: 3px solid #FF42A5;
+    border-radius: 14px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 5px;
+    opacity: 0;
+    cursor: pointer;
+}
+
+.overlay-icon {
+    font-size: 1.5rem;
+    color: white;
+}
+
+.overlay-text {
+    color: #FF42A5;
+    font-weight: 600;
+}
+
+.card-img-container:hover .overlay {
+    opacity: 1;
+}
+
 /* play games styles here  */
-.play-games{
+.play-games {
     width: 80%;
     margin: 30px auto;
     display: flex;
@@ -184,31 +230,38 @@ body {
     align-items: center;
     gap: 150px;
 }
-.play-img-container{
+
+.play-img-container {
     width: 60%;
     position: relative;
 }
-.secondary-img{
+
+.secondary-img {
     position: absolute;
     bottom: -15%;
     right: -10%;
 }
-.main-img{
+
+.main-img {
     width: 100%;
 }
-.secondary-img{
+
+.secondary-img {
     width: 30%;
 }
-.play-games-content{
+
+.play-games-content {
     width: 40%;
 }
-.play-games-content p{
+
+.play-games-content p {
     font-size: 0.8rem;
     color: #534C64;
     padding: 10px 0px;
 }
+
 /* games category styles here  */
-.games-category{
+.games-category {
     margin: 100px auto 0px;
     padding: 80px 10%;
     display: flex;
@@ -218,36 +271,44 @@ body {
     flex-wrap: wrap;
     background: linear-gradient(90deg, rgba(255, 66, 165, 0.03) 0%, rgba(255, 66, 165, 0.03) 100%);
 }
-.category-container{
+
+.category-container {
     gap: 10px;
     padding: 5px;
     border-radius: 30px;
     background-color: white;
 }
+
 .category-container:hover {
     border: 1px solid #FF42A5;
     border-radius: 30px;
 }
-.category-container:hover .category-name{
+
+.category-container:hover .category-name {
     color: #FF42A5;
 }
-.category-container img{
+
+.category-container img {
     width: 40px;
 }
-.category-name{
+
+.category-name {
     font-size: 1rem;
     font-weight: 600;
     color: #0B0223;
 }
+
 /* footer styles here  */
-footer{
+footer {
     text-align: center;
     background-color: #0B0223;
     padding: 100px 0px;
 }
-.footer-logo{
+
+.footer-logo {
     justify-content: center;
 }
+
 .footer-logo img {
     width: 60px;
 }
@@ -259,34 +320,42 @@ footer{
     padding-left: 15px;
 }
 
-.quick-links ul, .policy ul{
+.quick-links ul,
+.policy ul {
     justify-content: center;
     gap: 3%;
 }
+
 .policy li,
-.quick-links li,.social-links .fa-brands{
+.quick-links li,
+.social-links .fa-brands {
     padding: 15px 0px;
 }
-.quick-links li a{
+
+.quick-links li a {
     text-decoration: none;
     font-weight: 600;
     color: white;
 }
-.social-links a{
+
+.social-links a {
     font-size: 2rem;
     color: white;
     margin: 10px;
 }
-.policy li a{
+
+.policy li a {
     text-decoration: none;
     font-weight: 500;
     color: rgba(255, 255, 255, 0.60);
 }
- .footer-description{
+
+.footer-description {
     font-weight: 500;
     color: rgba(255, 255, 255, 0.60);
     padding: 15px 15px;
 }
-.hide{
+
+.hide {
     display: none;
 }

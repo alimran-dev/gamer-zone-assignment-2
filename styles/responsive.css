@@ -28,9 +28,11 @@
         margin: 0 auto;
         padding: 0px;
     }
-    .banner-content h1{
+
+    .banner-content h1 {
         font-size: 4rem;
     }
+
     .play-games {
         flex-direction: column-reverse;
         gap: 20px;
@@ -95,10 +97,12 @@
         flex-direction: column;
         gap: 10px;
     }
-    .videos-card{
+
+    .videos-card {
         height: 250px;
     }
-    .play-games{
+
+    .play-games {
         gap: 50px;
     }
 }
