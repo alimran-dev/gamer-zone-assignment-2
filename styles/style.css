@@ -190,14 +190,14 @@ body {
 }
 .secondary-img{
     position: absolute;
-    bottom: -100px;
-    right: -180px;
+    bottom: -15%;
+    right: -10%;
 }
-.play-img-container>img{
+.main-img{
     width: 100%;
 }
-.secondary-img img{
-    width: 70%;
+.secondary-img{
+    width: 30%;
 }
 .play-games-content{
     width: 40%;
