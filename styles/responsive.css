@@ -11,8 +11,15 @@
     .banner {
         flex-direction: column-reverse;
         gap: 20px;
+        padding: 20px 0px;
+        background-image: none;
     }
-
+    .banner-content{
+        background-image: url("../assets/images/Group\ 14.png");
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
     .banner-img,
     .banner-content {
         width: 70%;
