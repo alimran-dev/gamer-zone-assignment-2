@@ -236,3 +236,46 @@ body {
     font-weight: 600;
     color: #0B0223;
 }
+/* footer styles here  */
+footer{
+    text-align: center;
+    background-color: #0B0223;
+    padding: 100px 0px;
+}
+.footer-logo{
+    justify-content: center;
+}
+.footer-logo img {
+    width: 60px;
+}
+
+.footer-logo h2 {
+    font-size: 2.5rem;
+    font-weight: 700;
+    color: white;
+    padding-left: 15px;
+}
+
+.quick-links ul{
+    justify-content: center;
+    gap: 3%;
+}
+.quick-links li, .fa-brands{
+    padding: 15px 0px;
+}
+.quick-links li a{
+    text-decoration: none;
+    font-weight: 600;
+    color: white;
+}
+.social-links a{
+    font-size: 2rem;
+    color: white;
+    margin: 10px;
+}
+.policy a, .footer-description{
+    font-weight: 500;
+    color: rgba(255, 255, 255, 0.60);
+    text-decoration: none;
+    padding: 15px 15px;
+}
