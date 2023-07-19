@@ -23,4 +23,7 @@
         width: 100%;
         text-align: center;
     }
+    .category-container{
+        flex-basis: 30%;
+    }
 }
